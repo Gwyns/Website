@@ -59,7 +59,7 @@
 /* ==================================================ВАЖНОЕ ПРИМЕЧАНИЕ========================================================= */
 
 .blog-container a {
-  color: #4d4dff;
+  color: #ffffff;
   text-decoration: none;
   -webkit-transition: 0.25s ease;
   transition: 0.25s ease;
@@ -114,7 +114,8 @@
 }
 
 .blog-author--no-cover h3 {
-  color: #999999;
+  color: #ffffff;
+
   font-weight: 100;
 }
 
@@ -124,17 +125,20 @@
 }
 
 .blog-title h1 a {
-  color: #333;
+  color: #ffffff;
+
   font-weight: 100;
 }
 
 .blog-subtitle h2 a {
-  color: #333;
+  color: #ffffff;
+
   font-weight: 100;
 }
 
 .blog-summary p {
-  color: #4d4d4d;
+  color: #ffffff;
+
 }
 
 .blog-tags ul {
@@ -589,4 +593,11 @@ nav ul li ul li a {
   z-index: 50;
   width: 100%;
   height: 100%;
+}
+
+.main-page{
+  background-image: url("https://media.discordapp.net/attachments/573536775822376971/902630397362454538/100337-windows_10-nebo-vodopad-voda-otkos-x750.png?width=1920&height=1080");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
 }
