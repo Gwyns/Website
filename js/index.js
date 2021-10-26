@@ -92,7 +92,7 @@ var addNewContact = function () {
   var post = new Post(title, subtitle, descrition, img);
 
   // проверка на заполнение полей, если хоть одно пустое
-  if (title == "" || subtitle == "" || descrition == "" || img == undefined) {
+  if (title == "" || subtitle == "" || descrition == "") {
     alert("Заполните все поля");
   } else {
     // и уже здесь мы добавляем этот пост
